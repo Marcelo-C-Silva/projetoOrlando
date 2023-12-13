@@ -4,6 +4,10 @@ header{
     background-color: #5E299A;
     
 }
+header #logotipo{
+    position: absolute;
+    top: 21px;
+}
 header .header-black{
     background-color: #000;
     height: 40px;
@@ -88,10 +92,45 @@ header .header-black li a{
     height: 32px;
     display: block;
 }
-header #logotipo{
-    position: absolute;
-    top: -30px;
+header #menu{
+    margin: 18px 0;
 }
 header #menu li{
     display: inline-block;
+    font-family: "OpenSans";
+}
+header #menu li a{
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 25px;
+    
+}
+header #menu li.search{
+    width: 182px;
+}
+header #menu li.search input{
+    background-color: #5C2D90;
+    color: #ffffff;
+    border: none;
+    height: 30px;
+    line-height: 30px;    
+}
+header #menu li.search button{
+    background: none;
+    border: none;
+
+}
+header #menu li.search button i{
+    font-size: 14px;
+    position: absolute;
+    right: 34px;
+    top: 7px;
+}
+.form-control:focus {
+    border-color: #5C2D90;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #5C2D90;
+}
+header #menu li.search input::-webkit-input-placeholder{
+    color: #ffffff;
 }
