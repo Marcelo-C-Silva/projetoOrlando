@@ -1,7 +1,9 @@
 header{
     width: 100%;
     height: 150px;
-    background-color: #5E299A;
+    background-color:rgba(94, 41, 154, 0.664);
+    z-index: 2;
+    position: relative;
     
 }
 header #logotipo{
@@ -114,8 +116,10 @@ header #menu li.search input{
     color: #ffffff;
     border: none;
     height: 30px;
-    line-height: 30px;    
-}
+    line-height: 30px;
+    padding: 4px;
+    border-radius: 13px;
+}    
 header #menu li.search button{
     background: none;
     border: none;
@@ -124,13 +128,32 @@ header #menu li.search button{
 header #menu li.search button i{
     font-size: 14px;
     position: absolute;
-    right: 34px;
-    top: 7px;
+    left: 165px;
+    top: -26px;
 }
-.form-control:focus {
-    border-color: #5C2D90;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #5C2D90;
+#banner{
+    background-image: url(../img/banner.jpg);
+    width: 100%;
+    height: 924px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 0px -100px;
+    top: -110px;
+    background-size: cover;
 }
-header #menu li.search input::-webkit-input-placeholder{
+#banner h1{
     color: #ffffff;
+    position: relative;
+    top: 300px;
+    font-size: 92px;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, .45);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-left: 50px;
+}
+#banner h1 small{ 
+    font-size: 32px;
+    display: block;
+    color: #ffffff;
+    margin-left: 13px;
 }
