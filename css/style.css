@@ -157,3 +157,37 @@ header #menu li.search button i{
     color: #ffffff;
     margin-left: 13px;
 }
+#news{
+    position: relative;
+    top: -93px;
+}
+#news h2{
+    color: #5e2799;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#news hr{
+    border: #f8cb4e solid 2px;
+    width: 200px;
+    margin: 0 auto;
+    
+}
+#news .thumbnails{
+    margin-top: 41px;
+}
+#news .thumbnails h3{
+    color: #5e2799;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 19px;
+}
+#news .thumbnails time{
+    color: #A7A7A7;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
