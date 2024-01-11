@@ -170,7 +170,7 @@ header #menu li.search button i{
     text-align: center;
 }
 #news hr{
-    border: #f8cb4e solid 2px;
+    border: #f8cb4e solid 3px;
     width: 200px;
     margin: 0 auto;
     
@@ -212,4 +212,48 @@ header #menu li.search button i{
     font-weight: 300;
     display: block;
     
+}
+#call-to-action{
+    text-align: center;
+    margin-top: 105px;
+    
+}
+#call-to-action h2{
+    color: #5e2799;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    text-align: center;
+}
+#call-to-action hr{
+    border: #fde192 solid 3px;
+    width: 200px;
+    margin: 0 auto;
+
+}
+#call-to-action p{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color: #656565;
+}
+#call-to-action .buttons{
+    display: inline-flex;
+
+}
+#call-to-action .btn{
+    min-width: 164px;
+    height: 44px;
+    padding-top: 11px;
+    border-radius: 0;
+}
+#call-to-action .btn-purple{
+    color:#fde192;
+    background-color: #5e299a;
+    border-color: #5e299a;
+}
+#call-to-action .btn-yellow{
+    color: #5e299a;
+    background-color: #fde192;
+    border-color: #fde192;
+    margin-left: 79px;
 }
