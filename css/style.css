@@ -159,7 +159,7 @@ header #menu li.search button i{
 }
 #news{
     position: relative;
-    top: -93px;
+    top: -44px;
 }
 #news h2{
     color: #5e2799;
@@ -190,4 +190,26 @@ header #menu li.search button i{
     color: #A7A7A7;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
+}
+#statistics{
+    background-color: #5e2799;
+    width: 100%;
+    height: 200px;
+}
+#statistics p {
+    color: #fde092;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 64px;
+    margin-top: 36px;
+    text-align: center;
+}
+#statistics p small{
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    display: block;
+    
 }
