@@ -283,6 +283,9 @@ footer .row-dark-gray p{
 footer .logotipo{
     margin-top: 28px;
 }
+footer .row-cols{
+    display: flex;
+}
 footer .col-popular-post,
 footer .col-links,
 footer .col-get-in-touch{
@@ -306,4 +309,8 @@ footer .row-cols time{
 }
 footer .row-cols ul{
     list-style: none;
+}
+footer .col-get-in-touch a{
+    color: #ffffff;
+    font-size: 14px;
 }
