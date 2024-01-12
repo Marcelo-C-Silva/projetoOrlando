@@ -257,3 +257,26 @@ header #menu li.search button i{
     border-color: #fde192;
     margin-left: 79px;
 }
+footer{
+    margin-top: 110px;
+}
+footer .row{
+    width: 100%;
+}
+footer .row-gray{
+    height: 200px;
+    width: 1876px;
+    background-color: #171f26;
+
+}
+footer .row-dark-gray{
+    height: 60px;
+    width: 1876px;
+    background-color: #11171d;
+    border-top: solid 1px;
+}
+footer .row-dark-gray p{
+    color: #5e299a;
+    line-height: 59px;
+    margin-bottom: 0;
+}
